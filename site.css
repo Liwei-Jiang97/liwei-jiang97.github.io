@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
 * {
   margin: 0px;
   box-sizing: inherit;
 }
 
 html {
-  margin: 0px;
+  align-items: center;
+  margin: auto;
   min-height: 100%;
   font-size: 21px;
   /* background-color: rgb(200, 214, 241); */
 }
 
 body {
+  align-self: auto;
   min-height: 100%;
-  margin: 10px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 1px solid rgb(203, 203, 203);
   box-sizing: border-box;
   align-items: center;
@@ -26,7 +34,7 @@ header {
 header h1 {
   text-align: center;
   padding: 15px 0px 40px 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 57px;
   font-weight: 100;
   /* color :rgb(18, 18, 18); */
@@ -46,7 +54,7 @@ header nav ul {
   /* text-align: center; */
   padding: 15px 15px;
   /* margin: 0px; */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   border-top: 2px solid rgb(203, 203, 203);
   border-bottom: 2px solid rgb(203, 203, 203);
@@ -70,8 +78,8 @@ header nav ul li a {
 }
 
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: rgb(91, 0, 121);
-  text-decoration: underline;
+  color: rgb(132, 41, 163);
+  font-weight: 900;
 }
 
 main {
@@ -79,15 +87,16 @@ main {
   width: 700px;
   margin-top: 20px;
   margin-bottom: 60px;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   padding-top: 40px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  font-size: 37px;
+  font-size: 35px;
   text-align: left;
   color: rgb(91, 0, 121);
   border-bottom: 2px solid rgb(203, 203, 203);
