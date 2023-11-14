@@ -87,19 +87,30 @@ main {
   width: 700px;
   margin-top: 20px;
   margin-bottom: 60px;
+  padding-top: 30px;
   font-family: 'Ibarra Real Nova', serif;
 }
 
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   font-size: 35px;
   text-align: left;
   color: rgb(91, 0, 121);
   border-bottom: 2px solid rgb(203, 203, 203);
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: rgb(91, 0, 121);
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(203, 203, 203);
 }
 
 p {
@@ -121,11 +132,12 @@ footer {
 
 .paper {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
-.paper h3 {
-  padding-bottom: 5px;
+.paper h4 {
+  padding-bottom: 3px;
   /* border-b; */
 }
 
@@ -134,11 +146,11 @@ footer {
 }
 
 .bottom-margin {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .bottom-margin-small {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .purple {
